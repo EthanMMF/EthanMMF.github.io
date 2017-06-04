@@ -24,10 +24,9 @@
 
   <section class="main-content">
       {% for institution in site.data.education %}
-      <div>
       <button class ="accordion">
           <span class="education_header">
-              <div class=""><img class="logo" src="/assets/img/{{ institution.imageName }}"></img></div>
+              <div class="image_wrapper"><img class="logo" src="/assets/img/{{ institution.imageName }}"></img></div>
               <div class="text_wrapper">
                   <h2 class = "no_margin"> {{ institution.mainTitle }}</h2>
                   </br> {{ institution.subTitle }} </br> </br> {{ institution.duration }} 
@@ -41,7 +40,6 @@
           {% if institution.description3 %}<li>{{ institution.description3}}</li> {% endif %}
       </div>
       </br>
-      </div>
 
       {% endfor %}
       <script src="{{ '/assets/js/education.js' }}"></script>
