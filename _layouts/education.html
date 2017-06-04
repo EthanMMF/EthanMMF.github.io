@@ -34,6 +34,7 @@
           </span>
       </button>
       <div class = "panel">
+      {% if institution.mainDescription %} {{ institution.mainDescription}} {% endif %}
           {% if institution.description1 %}<li>{{ institution.description1}}</li> {% endif %}
           {% if institution.description2 %}<li>{{ institution.description2}}</li> {% endif %}
           {% if institution.description3 %}<li>{{ institution.description3}}</li> {% endif %}
