@@ -1,6 +1,30 @@
 .image_wrapper {
-    max-width: 100px;
-    height: auto;
-    padding: 10px;
+	max-height: 90px;
+    width: auto;
+    padding: 0px;
     margin: 5px;
+    position: relative;
+    float: left;
+}
+
+.education_h1 {
+	position:relative;
+	width: 100%;
+	right: 0px;
+	display: inline-block;
+}
+
+.text_wrapper {
+	position: relative;
+	float: right;
+	text-align: right;
+	max-height: 100px;
+}
+
+.education_header {
+    vertical-align: middle;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
 }
