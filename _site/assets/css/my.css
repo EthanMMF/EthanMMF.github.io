@@ -19,6 +19,7 @@
 	float: right;
 	text-align: right;
 	max-height: 100px;
+	line-height: 22px;
 }
 
 .education_header {
@@ -27,4 +28,33 @@
     height: 100%;
     width: 100%;
     padding: 10px;
+}
+
+button.accordion {
+	 width: 100%;
+	 max-width: 100%;
+	 background-color: transparent;
+	 border-color: transparent;
+}
+
+button.accordion:hover {
+    background-color: #ddd;
+}
+
+button.accordion.active {
+	background-color: transparent;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+h2.no_margin {
+	margin: 0px;
+	padding: 0px;
+	display: inline;
 }

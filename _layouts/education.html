@@ -9,6 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v='}}">
     <link rel="stylesheet" href="{{ '/assets/css/my.css' }}" >
+
 </head>
 <body>
     <section class="page-header">
@@ -22,18 +23,26 @@
 
   <section class="main-content">
       {% for institution in site.data.education %}
-      <span class="education_header">
-          <div class="image_wrapper"><img class="image_wrapper" src="/assets/img/{{ institution.imageName }}"></img></div>
-          <div class="text_wrapper">
-              <h2> {{ institution.mainTitle }}</h2>
-               {{ institution.subTitle }} 
-          </div>
+      <button class ="accordion">
+          <span class="education_header">
+              <div class="image_wrapper"><img class="image_wrapper" src="/assets/img/{{ institution.imageName }}"></img></div>
+              <div class="text_wrapper">
+                  <h2 class = "no_margin"> {{ institution.mainTitle }}</h2>
+                  </br> {{ institution.subTitle }} </br> </br> {{ institution.duration }} 
+              </div>
           </span>
-          {% endfor %}
+      </button>
+      <div class = "panel">
+          {% if institution.description1 %}<li>{{ institution.description1}}</li> {% endif %}
+          {% if institution.description2 %}<li>{{ institution.description2}}</li> {% endif %}
+          {% if institution.description3 %}<li>{{ institution.description3}}</li> {% endif %}
+      </div>
 
-          <footer class="site-footer">
-            <span class="site-footer-credits">Ethan Mok</span>
-        </footer>
-    </section>
+      {% endfor %}
+      <script src="{{ '/assets/js/education.js' }}"></script>
+      <footer class="site-footer">
+        <span class="site-footer-credits">Ethan Mok</span>
+    </footer>
+</section>
 </body>
 </html>
