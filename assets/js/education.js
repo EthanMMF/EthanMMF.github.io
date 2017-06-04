@@ -9,9 +9,7 @@ for (i = 0; i < acc.length; i++) {
     var panel = this.nextElementSibling;
     if (panel.style.maxHeight){
       panel.style.maxHeight = null;
-          console.log( "ready!" );
     } else {
-    	    console.log( "ready!" );
       panel.style.maxHeight = panel.scrollHeight + "px";
     } 
   }

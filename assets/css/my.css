@@ -1,5 +1,5 @@
 .image_wrapper {
-	max-height: 90px;
+	max-height: 70px;
     width: auto;
     padding: 0px;
     margin: 5px;
@@ -32,7 +32,6 @@
 
 button.accordion {
 	 width: 100%;
-	 max-width: 100%;
 	 background-color: transparent;
 	 border-color: transparent;
 }
