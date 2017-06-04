@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}</title>
+    <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/my.css' }}" >
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">{{ site.title }}</h1>
+      <h2 class="project-tagline">{{ site.description }}</h2>
+        <a href="{{ "portfolio" | relative_url }}" class="btn">Portfolio</a>
+        <a href="{{ "education" | relative_url }}" class="btn">Education</a>
+        <a href="{{ "resume" | relative_url }}" class="btn">Resume</a>
+    </section>
+
+    <section class="main-content">
+<ul>
+
+  {% for institution in site.data.education %}
+  <div id="wrapper" class="image_wrapper">
+      <img src="/assets/img/{{ institution.imageName }}"></img>
+        </div>
+      {{ institution.mainTitle }}
+      {{ institution.subTitle }}
+      {{ institution.duration }}
+  {% endfor %}
+
+</ul>
+      <footer class="site-footer">
+        <span class="site-footer-credits">Ethan Mok</span>
+      </footer>
+    </section>
+  </body>
+</html>

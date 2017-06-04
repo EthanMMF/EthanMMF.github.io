@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: education
 ---
 
-## Welcome to another page
+## Education
 
-_yay_
 
-[back](./)
