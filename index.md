@@ -3,6 +3,26 @@ layout: default
 title: About Me!
 ---
 
+Things to talk about myself:
+Picture?
+Current Status
+Vision
+Interests
+Job
+Contact me! (LinkedIn, FB, email, GitHub)
+
+**Hey there!** I'm Ethan and I'm currently a software developer working at [Datarama](htttp://www.datarama.com), where I'm in charge of data visualisation and machine learning for entity matching. My aspirations are working with Big Data in healthcare or energy.
+
+> Insert
+> sexy 
+> quote
+
+### [](#header-3)Contact me!
+I'm still in the midst of learning and improving my skills to better contribute in these 2 fields. Do contact me if there are any interesting projects where I could possibly land a hand!
+
+[LinkedIn](www.linkedin.com/ethanmok) [Facebook](www.facebook.com/mokmf) [Email]contact@ethanmok.info [Github](www.github.com/EthanMMF.github.io)
+
+Talk about interest in software development, applied mathematics/stats/engineering in specific fields
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).

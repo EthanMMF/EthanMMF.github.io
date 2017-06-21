@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: projects
 ---
 
 ## Welcome to another page
 
-_yay_
+project page
 
 [back](./)
