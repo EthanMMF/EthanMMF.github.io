@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#157878">
   <link href="{{ '/assets/css/fonts_googleapis_open_sans_400_700.css' }}" rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v='}}">
   <link rel="stylesheet" href="{{ '/assets/css/card.min.css?v='}}">
   <script src="{{'/assets/js/jquery-1.9.1.min.js'}}"></script>
@@ -22,14 +21,14 @@
     <a href="{{ '/assets/downloads/Resume_Georgia.pdf'}}" target="_blank" class="btn">Resume</a>
   </section>
   <section class="main-content">
-    <div class="ui three stackable cards">
+    <div class="ui two stackable cards">
      {% for post in site.posts %}
      <div class="ui fluid card">
       <a class="image" href="{{ site.baseurl }}{{post.post_path}}">
         <img src="/assets/img/{{ post.image }}">
       </a>
       <div class="content">
-      <div class="header">{{ post.title }}</div>
+        <div class="header">{{ post.title }}</div>
         <div class="meta">
           {{post.role}}
         </div>
