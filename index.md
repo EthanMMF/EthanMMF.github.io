@@ -11,10 +11,9 @@ Interests
 Job
 Contact me! (LinkedIn, FB, email, GitHub)
 
-**Hey there!** I'm Ethan and I'm currently a software developer working at [Datarama](htttp://www.datarama.com), where I'm in charge of data visualisation and machine learning for entity matching. My aspirations are working with Big Data in healthcare or energy.
-
-> Insert
-> sexy 
+**Hey there!** I'm Ethan and I'm currently a software developer working at [Datarama](htttp://www.datarama.com), where I'm in charge of data visualisation for graph data structures and machine learning in Entity Resolution. My aspirations are working with Big Data to solve real world problems.
+> I think we have a duty to maintain the light of consciousness to make sure it continues into the future. 
+> - Elon Musk
 > quote
 
 ### [](#header-3)Contact me!
