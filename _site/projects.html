@@ -7,7 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#157878">
   <link href="/assets/css/fonts_googleapis_open_sans_400_700.css" rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/css/material-cards.css?v=">
   <link rel="stylesheet" href="/assets/css/style.css?v=">
+  <link rel="stylesheet" href="/assets/css/bootstrap.css?v=">
+  <script src="/assets/js/jquery-1.9.1.min.js"></script>
 </head>
 <body>
   <section class="page-header">
@@ -19,27 +23,75 @@
     <a href="/assets/downloads/Resume_Georgia.pdf" target="_blank" class="btn">Resume</a>
   </section>
 
-<!--https://codepen.io/marlenesco/full/NqOozj-->
+  <!--https://codepen.io/marlenesco/full/NqOozj-->
   <section class="main-content">
     <ul>
       
       <li>
-      <a href="/2017/06/01/datarama.html">Data pipeline (Datarama)</a>
+        <a href="/2017/06/01/datarama.html">Data pipeline (Datarama)</a>
       </li>
       
       <li>
-      <a href="/2016/01/01/motivo.html">MNavigator (Motivo Inc.)</a>
+        <a href="/2016/01/01/motivo.html">MNavigator (Motivo Inc.)</a>
       </li>
       
       <li>
-      <a href="/2015/06/01/jublia.html">Company profile web scraper (Jublia)</a>
+        <a href="/2015/06/01/jublia.html">Company profile web scraper (Jublia)</a>
       </li>
       
     </ul>
+    <article class="material-card Red">
+      <h2>
+        <span>Christopher Walken</span>
+        <strong>
+          <i class="fa fa-fw fa-star"></i>
+          The Deer Hunter
+        </strong>
+      </h2>
+      <div class="mc-content">
+        <div class="img-container">
+          <img class="img-responsive" src="https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg">
+        </div>
+        <div class="mc-description">
+          He has appeared in more than 100 films and television shows, including The Deer Hunter, Annie Hall, The Prophecy trilogy, The Dogs of War ...
+        </div>
+      </div>
+      <a class="mc-btn-action">
+        <i class="fa fa-bars"></i>
+      </a>
+      <div class="mc-footer">
+        <h4>
+          Social
+        </h4>
+        <a class="fa fa-fw fa-facebook"></a>
+        <a class="fa fa-fw fa-twitter"></a>
+        <a class="fa fa-fw fa-linkedin"></a>
+        <a class="fa fa-fw fa-google-plus"></a>
+      </div>
+    </article>
 
     <footer class="site-footer">
       <span class="site-footer-credits">Ethan Mok</span>
     </footer>
   </section>
+
+  <script src="/assets/js/jquery.material-cards.min.js"></script>
+  <script>
+    $(function() {
+      $('.material-card').materialCard({
+        icon_close: 'fa-chevron-left',
+        icon_open: 'fa-thumbs-o-up',
+        icon_spin: 'fa-spin-fast',
+        card_activator: 'click'
+      });
+      window.setTimeout(function() {
+        $('.material-card:eq(1)').materialCard('open');
+      }, 2000);
+
+      $('.material-card').on('shown.material-card show.material-card hide.material-card hidden.material-card', function (event) {
+        console.log(event.type, event.namespace, $(this));
+      });
+    });
+  </script>
 </body>
 </html>
