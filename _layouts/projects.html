@@ -24,35 +24,35 @@
   <section class="main-content">
     <div class="ui three stackable cards">
      {% for post in site.posts %}
-      <div class="ui fluid card">
-        <div class="image">
-          <img src="/assets/img/{{ post.image }}">
+     <div class="ui fluid card">
+      <a class="image" href="{{ site.baseurl }}{{post.post_path}}">
+        <img src="/assets/img/{{ post.image }}">
+      </a>
+      <div class="content">
+      <div class="header">{{ post.title }}</div>
+        <div class="meta">
+          {{post.role}}
         </div>
-        <div class="content">
-          <div class="header">{{ post.title }}</div>
-          <div class="meta">
-            <a>{{post.role}}</a>
-          </div>
-          <div class="description">
-           {{ post.summary }}
-          </div>
-        </div>
-        <div class="extra content">
-          <span class="right floated">
-            Joined in 2013
-          </span>
-          <span>
-            <i class="user icon"></i>
-            75 Friends
-          </span>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
+        <div class="description">
+         {{ post.summary }}
+       </div>
+     </div>
+     <div class="extra content">
+      <span class="right floated">
+        {{ post.date_range }}
+      </span>
+      <span>
+        <i class="user icon"></i>
 
-  <footer class="site-footer">
-    <span class="site-footer-credits">Ethan Mok</span>
-  </footer>
+      </span>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<footer class="site-footer">
+  <span class="site-footer-credits">Ethan Mok</span>
+</footer>
 </section>
 </body>
 </html>
