@@ -1,9 +1,6 @@
 ---
 layout: projects
+title: Projects
 ---
 
-## Welcome to another page
-
-project page
-
-[back](./)
+## Projects
