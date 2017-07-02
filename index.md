@@ -1,7 +1,9 @@
 ---
 layout: default
-title: About Me!
+title: Hey there! I'm Ethan!
 ---
+
+**Hey there!** I'm Ethan!
 
 Things to talk about myself:
 Picture?
@@ -11,7 +13,7 @@ Interests
 Job
 Contact me! (LinkedIn, FB, email, GitHub)
 
-**Hey there!** I'm Ethan and I'm currently a software developer working at [Datarama](htttp://www.datarama.com), where I'm in charge of data visualisation for graph data structures and machine learning in Entity Resolution. My aspirations are working with Big Data to solve real world problems.
+ and I'm currently a software developer working at [Datarama](htttp://www.datarama.com), where I'm in charge of data visualisation for graph data structures and machine learning in Entity Resolution. My aspirations are working with Big Data to solve real world problems.
 > I think we have a duty to maintain the light of consciousness to make sure it continues into the future. 
 > - Elon Musk
 > quote
@@ -112,13 +114,9 @@ end
   - level 2 item
 - level 1 item
 
-### Small image
+### image
 
 ![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
 
 
 ### Definition lists can be used with HTML syntax.
@@ -133,10 +131,6 @@ end
 <dt>Color</dt>
 <dd>Green</dd>
 </dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
 
 ```
 The final element.
