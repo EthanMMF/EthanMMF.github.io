@@ -3,20 +3,43 @@ layout: default
 title: Hey there! I'm Ethan!
 ---
 
-**Hey there!** I'm Ethan!
+## [](#header-2) **Hey there!** I'm Ethan!
 
-Things to talk about myself:
-Picture?
-Current Status
-Vision
-Interests
-Job
-Contact me! (LinkedIn, FB, email, GitHub)
+## [](#header-2)I'm passionate about learning and picking up new technological skills to make a positive impact in energy, healthcare or education.
 
- and I'm currently a software developer working at [Datarama](htttp://www.datarama.com), where I'm in charge of data visualisation for graph data structures and machine learning in Entity Resolution. My aspirations are working with Big Data to solve real world problems.
+* * *
+
+### [](#header-3) Summary
+
+ I'm currently a software developer working at [Datarama](htttp://www.datarama.com), where my focus is data visualisation for graph data structures and machine learning in Entity Resolution. 
+
 > I think we have a duty to maintain the light of consciousness to make sure it continues into the future. 
-> - Elon Musk
-> quote
+>
+> Elon Musk
+
+Problems which I feel the most for are energy, healthcare or education related. I am focusing the development of my skills in Computer Science, Applied Mathematics and Physics. With enough luck and knowledge, I hope to harness the capabilities of Artificial Intelligence and Graphs to represent and solve difficult problems in the physical world.
+
+>I’m not a tech guy. I’m looking at the technology with the eyes of my customers, normal people’s eyes.
+>
+> Jack Ma
+
+Despite my inclination towards STEM, I never forget the importance of solving problems for the people. Having worked at several startups, I have seen the value we provided our customers. With an entrepreneurial mindset, I intend to solve a problem for not a person, organization or country... but the world. 
+
+With a mix of ferocity and humility, I set forth on my journey.
+
+* * *
+
+### [](#header-3) Education
+
+* * *
+
+### [](#header-3) Work
+
+* * *
+
+### [](#header-3) Skills & Growth
+
+* * *
 
 ### [](#header-3)Contact me!
 I'm still in the midst of learning and improving my skills to better contribute in these 2 fields. Do contact me if there are any interesting projects where I could possibly land a hand!
