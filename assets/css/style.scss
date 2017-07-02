@@ -2,3 +2,8 @@
 ---
 
 @import "{{ site.theme }}";
+@import "font-awesome";
+
+a > i {
+  color: white;
+}

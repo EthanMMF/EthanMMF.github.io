@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 <head>
-    <meta charset="UTF-8">
-    <title>{% if page.title %}{{ page.title }}{% endif %}</title>
-    <meta name="description" content="{{ page.description | default: site.description }}"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <link href="{{ '/assets/css/fonts_googleapis_open_sans_400_700.css' }}" rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v='}}">
-    <link rel="stylesheet" href="{{ '/assets/css/education.css' }}" >
-    <script src="{{'/assets/js/jquery-1.9.1.min.js'}}"></script>
+  <meta charset="UTF-8">
+  <title>{% if page.title %}{{ page.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link href="{{ '/assets/css/fonts_googleapis_open_sans_400_700.css' }}" rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v='}}">
+  <link rel="stylesheet" href="{{ '/assets/css/education.css' }}" >
+  <script src="{{'/assets/js/jquery-1.9.1.min.js'}}"></script>
 
 </head>
 <body>
-    <section class="page-header">
-      <h1 class="project-name">{{ site.title }}</h1>
-      <h2 class="project-tagline">{{ site.description }}</h2>
-      <a href="{{ "./" | relative_url }}" class="btn">About Me!</a>
-      <a href="{{ "projects" | relative_url }}" class="btn">Projects</a>
-      <a href="{{ "education" | relative_url }}" class="btn">Education</a>
-      <a href="{{ "/assets/downloads/Resume_Georgia.pdf" | relative_url }}" target="_blank" class="btn">Resume</a>
-  </section>
+  <section class="page-header">
+    <h1 class="project-name">{{ site.title }}</h1>
+    <h2 class="project-tagline">{{ site.description }}</h2>
+    <a href="{{ "./" | relative_url }}" class="btn">About Me!</a>
+    <a href="{{ "projects" | relative_url }}" class="btn">Projects</a>
+    <a href="{{ "education" | relative_url }}" class="btn">Education</a>
+    <a href="{{ "/assets/downloads/Resume_Georgia.pdf" | relative_url }}" target="_blank" class="btn">Resume</a>
+    <h1>
+      <a href="https://github.com/EthanMMF" target="_blank"><i class="fa fa-github fa-lg" style="margin: 10px;" aria-hidden="true" ></i></a>
+      <a href="https://www.linkedin.com/in/ethanmok/" target="_blank"><i class="fa fa-linkedin fa-lg" style="margin: 10px" aria-hidden="true"></i></a>
+      <a href="mailto:contact@ethanmok.info"><i class="fa fa-envelope fa-lg" style="margin: 10px" aria-hidden="true"></i></a></h1>
+    </section>
 
-  <section class="main-content">
+    <section class="main-content">
       {% for institution in site.data.education %}
       <button class ="accordion">
-          <span class="education_header">
-              <div class="image_wrapper"><img class="logo" src="/assets/img/{{ institution.imageName }}"></img></div>
-              <div class="text_wrapper">
-                  <h2 class = "no_margin"> {{ institution.mainTitle }}</h2>
-                  </br> {{ institution.subTitle }} </br> </br> {{ institution.duration }} 
-              </div>
-          </span>
-      </button>
-      <div class = "panel">
+        <span class="education_header">
+          <div class="image_wrapper"><img class="logo" src="/assets/img/{{ institution.imageName }}"></img></div>
+          <div class="text_wrapper">
+            <h2 class = "no_margin"> {{ institution.mainTitle }}</h2>
+          </br> {{ institution.subTitle }} </br> </br> {{ institution.duration }} 
+        </div>
+      </span>
+    </button>
+    <div class = "panel">
       {% if institution.mainDescription %} {{ institution.mainDescription}} {% endif %}
-          {% if institution.description1 %}<li>{{ institution.description1}}</li> {% endif %}
-          {% if institution.description2 %}<li>{{ institution.description2}}</li> {% endif %}
-          {% if institution.description3 %}<li>{{ institution.description3}}</li> {% endif %}
-      </div>
-      </br>
+      {% if institution.description1 %}<li>{{ institution.description1}}</li> {% endif %}
+      {% if institution.description2 %}<li>{{ institution.description2}}</li> {% endif %}
+      {% if institution.description3 %}<li>{{ institution.description3}}</li> {% endif %}
+    </div>
+  </br>
 
-      {% endfor %}
-      <script src="{{ '/assets/js/education.js' }}"></script>
-      <footer class="site-footer">
-        <span class="site-footer-credits">Ethan Mok</span>
-    </footer>
+  {% endfor %}
+  <script src="{{ '/assets/js/education.js' }}"></script>
+  <footer class="site-footer">
+    <span class="site-footer-credits">Ethan Mok</span>
+  </footer>
 </section>
 </body>
 </html>

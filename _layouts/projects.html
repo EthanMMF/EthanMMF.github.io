@@ -15,43 +15,47 @@
   <section class="page-header">
     <h1 class="project-name">{{ site.title }}</h1>
     <h2 class="project-tagline">{{ site.description }}</h2>
-    <a href="{{ './' | relative_url }}" class="btn">About Me!</a>
-    <a href="{{ 'projects' | relative_url }}" class="btn">Projects</a>
-    <a href="{{ 'education' | relative_url }}" class="btn">Education</a>
-    <a href="{{ '/assets/downloads/Resume_Georgia.pdf'}}" target="_blank" class="btn">Resume</a>
-  </section>
-  <section class="main-content">
-    <div class="ui two stackable cards">
-     {% for post in site.posts %}
-     <div class="ui fluid card">
-      <a class="image" href="{{ site.baseurl }}{{post.post_path}}">
-        <img src="/assets/img/{{ post.image }}">
-      </a>
-      <div class="content">
-        <div class="header">{{ post.title }}</div>
-        <div class="meta">
-          {{post.role}}
-        </div>
-        <div class="description">
-         {{ post.summary }}
+    <a href="{{ "./" | relative_url }}" class="btn">About Me!</a>
+    <a href="{{ "projects" | relative_url }}" class="btn">Projects</a>
+    <a href="{{ "education" | relative_url }}" class="btn">Education</a>
+    <a href="{{ "/assets/downloads/Resume_Georgia.pdf" | relative_url }}" target="_blank" class="btn">Resume</a>
+    <h1>
+      <a href="https://github.com/EthanMMF" target="_blank"><i class="fa fa-github fa-lg" style="margin: 10px;" aria-hidden="true" ></i></a>
+      <a href="https://www.linkedin.com/in/ethanmok/" target="_blank"><i class="fa fa-linkedin fa-lg" style="margin: 10px" aria-hidden="true"></i></a>
+      <a href="mailto:contact@ethanmok.info"><i class="fa fa-envelope fa-lg" style="margin: 10px" aria-hidden="true"></i></a></h1>
+    </section>
+    <section class="main-content">
+      <div class="ui two stackable cards">
+       {% for post in site.posts %}
+       <div class="ui fluid card">
+        <a class="image" href="{{ site.baseurl }}{{post.post_path}}">
+          <img src="/assets/img/{{ post.image }}">
+        </a>
+        <div class="content">
+          <div class="header">{{ post.title }}</div>
+          <div class="meta">
+            {{post.role}}
+          </div>
+          <div class="description">
+           {{ post.summary }}
+         </div>
        </div>
-     </div>
-     <div class="extra content">
-      <span class="right floated">
-        {{ post.date_range }}
-      </span>
-      <span>
-        <i class="user icon"></i>
+       <div class="extra content">
+        <span class="right floated">
+          {{ post.date_range }}
+        </span>
+        <span>
+          <i class="user icon"></i>
 
-      </span>
+        </span>
+      </div>
     </div>
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
-{{content}}
-<footer class="site-footer">
-  <span class="site-footer-credits">Ethan Mok</span>
-</footer>
+  {{content}}
+  <footer class="site-footer">
+    <span class="site-footer-credits">Ethan Mok</span>
+  </footer>
 </section>
 </body>
 </html>
