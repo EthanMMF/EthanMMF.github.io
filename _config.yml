@@ -10,3 +10,5 @@ defaults:
       image: true
 gems:
 - jekyll-textile-converter
+sass:
+    style: compressed

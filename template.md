@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Hey there! I'm Ethan!
 ---
 
