@@ -1,0 +1,12 @@
+{
+  "name": "ethan website",
+  "homepage": "https://github.com/EthanMMF/EthanMMF.github.io",
+  "description": "ethan website for personal branding",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "jqcloud2": "^2.0.3",
+    "semantic-ui-feed": "^2.2.10",
+    "semantic-ui-card": "^2.2.10"
+  }
+}
