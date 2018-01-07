@@ -2,13 +2,14 @@
 layout: index
 title: Hey there! I'm Ethan!
 ---
-## [](#header-2) **Hey there!** I'm Ethan!
-
-## [](#header-2)I'm passionate about learning and picking up new technological skills to make a positive impact in energy, healthcare or education.
+<!-- ## [](#header-2) **Hey there!** I'm Ethan! -->
+<h2 style="color:#606c71;"><b>Hey there!</b> I'm Ethan!</h2>
+<h2 style="color:#606c71;">I'm passionate about implementing new technological skills to make a positive impact in energy, healthcare or education.</h2>
+<!--## [](#header-2)I'm passionate about learning and picking up new technological skills to make a positive impact in energy, healthcare or education.-->
 
 * * *
 
-### [](#header-3) Summary
+### [](#header-2) Summary
 
 I'm currently a software developer working at [Datarama](htttp://www.datarama.com), where my focus is data visualisation for graph data structures and machine learning in Entity Resolution. 
 
@@ -28,7 +29,7 @@ With a mix of ferocity and humility, I set forth on my journey.
 
 * * *
 
-### [](#header-3) Experience
+### [](#header-2) Experience
 <div class="timeline-container">
   <div id="timeline">
     <div class="timeline-item">
@@ -56,7 +57,7 @@ With a mix of ferocity and humility, I set forth on my journey.
    </div>
 
    <div class="timeline-item">
-    <div class="timeline-icon success">
+    <div class="timeline-icon">
       <i class="fa fa-university" aria-hidden="true"></i>
     </div>
     <div class="timeline-content">
@@ -100,7 +101,7 @@ With a mix of ferocity and humility, I set forth on my journey.
   </div>
 
   <div class="timeline-item">
-    <div class="timeline-icon success">
+    <div class="timeline-icon">
       <i class="fa fa-university" aria-hidden="true"></i>
     </div>
     <div class="timeline-content">
@@ -112,7 +113,7 @@ With a mix of ferocity and humility, I set forth on my journey.
 </div>
 </div>
 * * *
-### [](#header-3) Skills & Growth
+### [](#header-2) Growth In-Progress
 
 Entrepreneurship
 <div class="wrapper">
@@ -219,7 +220,7 @@ Applied Mathematics
 </div>
 * * *
 
-### [](#header-3)Contact me
+### [](#header-2)Contact me
 I'm still in the midst of improving my skills and learning more about various industrial problems. Do contact me if there are any interesting projects where I could possibly land a hand or learn from!
 
 
