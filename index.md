@@ -11,7 +11,7 @@ title: Hey there! I'm Ethan!
 
 ### [](#header-2) Summary
 
-I'm currently a software developer working at [Datarama](htttp://www.datarama.com), where my focus is data visualisation for graph data structures and machine learning in Entity Resolution. 
+I'm currently a software developer working at [Hanalytics](http://www.hanalytics.sg), where my focus is on developing a Qt application for doctors at hospitals.
 
 > I think we have a duty to maintain the light of consciousness to make sure it continues into the future. 
 >
