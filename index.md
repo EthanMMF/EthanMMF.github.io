@@ -4,7 +4,7 @@ title: Hey there! I'm Ethan!
 ---
 <!-- ## [](#header-2) **Hey there!** I'm Ethan! -->
 <h2 style="color:#606c71;"><b>Hey there!</b> I'm Ethan!</h2>
-<h2 style="color:#606c71;">I'm passionate about implementing new technological skills to make a positive impact in energy, healthcare or education.</h2>
+<h2 style="color:#606c71;">I'm passionate about learning new technologies to make a positive impact in energy, healthcare or education.</h2>
 <!--## [](#header-2)I'm passionate about learning and picking up new technological skills to make a positive impact in energy, healthcare or education.-->
 
 * * *
