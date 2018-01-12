@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  Datarama
-role: Software Developer
-date:   2017-06-01 00:00:00 +0800
+title:  Hanalytics
+role: Software Engineer
+date:   2017-10-01 00:00:00 +0800
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim ut sem vel vestibulum. Donec venenatis purus in lorem dictum, vel accumsan purus rhoncus. Donec dapibus, leo sed sagittis rhoncus, nunc mauris volutpat risus, non condimentum metus nibh at nisl. Nam tincidunt pharetra libero, in bibendum ante auctor quis. In lacus ipsum, egestas vitae tristique at, rutrum eu nibh. Fusce auctor eros ut metus sagittis porttitor. Quisque venenatis mi eget erat tincidunt, nec feugiat turpis rhoncus.
-image: datarama_logo.png
-date_range: Jun 2017 - Sep 2017
-post_path: 2017/06/01/datarama
+image: hanalytics_logo.png
+date_range: Ongoing
+post_path: 2017/10/01/hanalytics
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `bundle exec jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
