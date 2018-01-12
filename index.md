@@ -32,6 +32,20 @@ With a mix of ferocity and humility, I set forth on my journey.
 ### [](#header-2) Experience
 <div class="timeline-container">
   <div id="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-icon">
+        <i class="fa fa-laptop" aria-hidden="true"></i>
+      </div>
+      <div class="timeline-content right">
+        <h3>Software Engineer at Hanalytics</h3>
+        <p>
+         Qt Application. 3D Medical Imaging
+       </p>
+       <span class="time-stamp">Oct 2017</span>
+     </div>
+   </div>
+
     <div class="timeline-item">
       <div class="timeline-icon">
         <i class="fa fa-university" aria-hidden="true"></i>
@@ -52,7 +66,7 @@ With a mix of ferocity and humility, I set forth on my journey.
         <p>
          Graph Visualisation. Entity Resolution. 
        </p>
-       <span class="time-stamp">Jun 2017</span>
+       <span class="time-stamp">Jun 2017 - Sep 2017 </span>
      </div>
    </div>
 
